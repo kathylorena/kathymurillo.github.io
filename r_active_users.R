@@ -2,7 +2,7 @@ library(bigrquery)
 library(tidyverse)
 
 # Specify the path to your service account key file
-json_path <- "data-analyst-course-1-8bcdae990e05.json"
+json_path <- "json service account key"
 
 # Authenticate with Google Cloud using the service account key
 bq_auth(path = json_path)
